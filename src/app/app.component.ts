@@ -44,10 +44,10 @@ export class AppComponent {
     const textArea = document.getElementById('textArea');
     if (textArea) {
       textArea.innerText =
-        '\n### TOKEN BEGIN ###\n' +
         textArea.innerText +
+        '\n### TOKEN BEGIN ###\n' +
         token +
-        '\n### TOKEN END\n';
+        '\n### TOKEN END ###\n';
     }
   }
 }
